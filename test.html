@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <p>her er noget tekst</p>
+
+    <script>
+      const afsnit = document.querySelector("p");
+      console.log(afsnit.textContent);
+      afsnit.innerHTML = "Nu er det <b>Torsdag</b>";
+
+      const header = document.querySelector("header");
+      let overskrift = document.createElement("h1");
+      let text = document.createTextNode("welcome");
+      overskrift.appendChild(text);
+      header.appendChild(overskrift);
+    </script>
+  </body>
+</html>
