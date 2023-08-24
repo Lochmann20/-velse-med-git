@@ -1,0 +1,20 @@
+.article {
+  border-style: solid;
+}
+
+.h1 {
+  text-align: center;
+  border-style: solid;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+}
+
+footer {
+  text-align: center;
+  border-style: solid;
+  margin-top: 15px;
+}
